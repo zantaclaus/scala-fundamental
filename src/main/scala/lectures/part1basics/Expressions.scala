@@ -49,4 +49,19 @@ object Expressions extends App {
   }
   // The value of code block is that value of LAST EXPRESSION
 
+  // QUESTION
+  // 1. difference between "hello world" vs println("hello world") ?
+  // ans : "hello world" is a String but println("hello world") is expression that return Unit
+  // 2.
+
+  val someValue = {
+    2 < 3
+  }
+  // someValue = False
+
+  val someOtherValue = {
+    if(someValue) 239 else 986
+    42
+  }
+  // someOtherValue = 42
 }
