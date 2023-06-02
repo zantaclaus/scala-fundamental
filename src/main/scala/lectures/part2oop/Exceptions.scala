@@ -86,7 +86,7 @@ object Exceptions extends App {
     }
 
     def divide(x: Int, y: Int) = {
-      val (y == 0) throw new MathCalculationException
+      if (y == 0) throw new MathCalculationException
       else x / y
     }
   }
